@@ -96,7 +96,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10
       },
-      "+=5"
+      "+=7"
     )
     .from(".four", 0.7, {
       scale: 0.2,
@@ -128,9 +128,9 @@ const animationTimeline = () => {
       "+=3"
     )
     .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=11")
+    .to(".idea-1", 0.7, ideaTextTransLeave, "+=7")
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave, "+=11")
+    .to(".idea-2", 0.7, ideaTextTransLeave, "+=13")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
@@ -138,9 +138,9 @@ const animationTimeline = () => {
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff"
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=11")
+    .to(".idea-3", 0.7, ideaTextTransLeave, "+=13")
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=11")
+    .to(".idea-4", 0.7, ideaTextTransLeave, "+=2")
     .from(
       ".idea-5",
       0.7,
